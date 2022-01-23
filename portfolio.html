@@ -24,13 +24,14 @@
     <nav class="header-nav">
       <ul class="nav-list list">
         <li class="item nav-item">
-          <a class="link header-link current" href="./index.html">Студия</a>
+          <a class="link header-link" href="./index.html">Студия</a>
         </li>
         <li class="item nav-item">
-          <a class="link header-link" href="./portfolio.html">Портфолио</a>
+          <a class="link header-link current" href="./portfolio.html">Портфолио</a>
         </li>
-        <li class="item nav-item"><a class="link header-link"
-            href="">Контакты</a></li>
+        <li class="item nav-item">
+          <a class="link header-link" href="">Контакты</a>
+        </li>
       </ul>
     </nav>
     <ul class="header-contacts list">
@@ -45,24 +46,27 @@
     </ul>
   </header>
     <main>
-      <section class="filters">
-        <ul class="list">
-          <li><button type="button"></button></li>
-          <li><button type="button"></button></li>
-          <li><button type="button"></button></li>
-          <li><button type="button"></button></li>
-          <li><button type="button"></button></li>
-        </ul>
-      </section>
       <section class="projects">
-        <h2 hidden>Projects</h2>
-        <ul class="list">
+        <h2 class="visually-hidden">Проекты</h2>
+        <ul class="list filters-list">
+          <li class="filters-item item"><button class="filters-btn" type="button">Все</button></li>
+          <li class="filters-item item"><button class="filters-btn" type="button">Веб-сайты</button></li>
+          <li class="filters-item item"><button class="filters-btn" type="button">Приложения</button></li>
+          <li class="filters-item item"><button class="filters-btn" type="button">Дизайн</button></li>
+          <li class="filters-item item"><button class="filters-btn" type="button">Маркетинг</button></li>
+        </ul>
+     
+       
+        <ul class="list projects-list">
           <li>
+            <a class="projects-link" href>
             <img src="./images/portfolio/portfolio-1.jpg" alt="ноутбук" width="370" height="294" />
             <h3>Технокряк</h3>
             <p>Веб-сайт</p>
+            </a>
           </li>
           <li>
+            <a class="projects-link" href>
             <img
               src="./images/portfolio/portfolio-2.jpg"
               alt="игра по баскетболу"
@@ -71,8 +75,10 @@
             />
             <h3>Постер <span lang="en"> Orlean vs Golden Star</span></h3>
             <p>Дизайн</p>
+            </a> 
           </li>
           <li>
+            <a class="projects-link" href>
             <img
               src="./images/portfolio/portfolio-3.jpg"
               alt="ресторан морепродуктов"
@@ -81,13 +87,17 @@
             />
             <h3>Ресторан <span lang="en">Seafood</span></h3>
             <p>Приложение</p>
+            </a> 
           </li>
           <li>
+            <a class="projects-link" href>
             <img src="./images/portfolio/portfolio-4.jpg" alt="наушники" width="370" height="294" />
             <h3>Проект <span lang="en">Prime</span></h3>
             <p>Маркетинг</p>
+            </a> 
           </li>
           <li>
+            <a class="projects-link" href>
             <img
               src="./images/portfolio/portfolio-5.jpg"
               alt="Две каробки"
@@ -96,8 +106,10 @@
             />
             <h3>Проект <span lang="en">Boxes</span></h3>
             <p>Приложение</p>
+            </a> 
           </li>
           <li>
+            <a class="projects-link" href>
             <img
               src="./images/portfolio/portfolio-6.jpg"
               alt="монитор Мас"
@@ -106,18 +118,24 @@
             />
             <h3><span lang="en">Inspiration has no Borders</span></h3>
             <p>Веб-сайт</p>
+            </a>
           </li>
           <li>
+            <a class="projects-link" href>
             <img src="./images/portfolio/portfolio-7.jpg" alt="книга" width="370" height="294" />
             <h3>Издание <span lang="en">Limited Edition</span></h3>
             <p>Дизайн</p>
+            </a>
           </li>
           <li>
+            <a class="projects-link" href>
             <img src="./images/portfolio/portfolio-8.jpg" alt="Етикетка" width="370" height="294" />
             <h3>Проект <span lang="en">LAB</span></h3>
             <p>Маркетинг</p>
+            </a> 
           </li>
           <li>
+            <a class="projects-link" href>
             <img
               src="./images/portfolio/portfolio-9.jpg"
               alt="Печать на ноутбуке"
@@ -126,6 +144,7 @@
             />
             <h3><span lang="en">Growing Business</span></h3>
             <p>Приложение</p>
+            </a> 
           </li>
         </ul>
       </section>
